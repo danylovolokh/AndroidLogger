@@ -1,6 +1,5 @@
 # AndroidLogger
-This is a lightweight Logger to file for Android. It's based on VoNaLogger.
-
+This is a lightweight Logger to file for Android. It's based on [VoNaLogger](https://github.com/danylovolokh/VoNaLogger)
 # Recommended usage
 
 - Add this to your build.gradle file of the project.
@@ -95,7 +94,7 @@ There are also other options to get logs from file.
 Please see the source code.
 
 # How it works.
-Here is a decription from VoNaLogger. Because basically AndroidLogger is jsut a wrapper.
+Here is a decription from [VoNaLogger](https://github.com/danylovolokh/VoNaLogger). Because basically AndroidLogger is jsut a wrapper.
 The logs (any parameters passed to the logger) are stored in Log Entries. Log Entries are reused because the main goal of this library is to create the smallest amount of objects during writing to file.
 
 ![logging_animation_converted](https://cloud.githubusercontent.com/assets/2686355/22549863/1b5c202c-e956-11e6-9b07-b500391a06b8.gif)
